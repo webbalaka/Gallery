@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.container {
+    width: 1440px;
+    height: 1577px;
+}
+
+.user {
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile img {
+    margin-top: 60px;
+    width: 156px;
+    height: 156px;
+    border-radius: 10px;
+}
+
+.user .name h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #4E5150;
+}
+
+.user .name p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #A9A9A9;
+}
+
+.box {
+    justify-content: center;
+    display: flex;
+}
+
+.box1 {
+    width: 100px;
+    height: 67px;
+    background: #E5E5E5;
+    border-radius: 12px;
+    margin: 12px;
+}
+
+.box2 {
+    width: 100px;
+    height: 67px;
+    background: #E5E5E5;
+    border-radius: 12px;
+    margin: 12px;
+}
+
+.box3 {
+    width: 100px;
+    height: 67px;
+    background: #E5E5E5;
+    border-radius: 12px;
+    margin: 12px;
+}
+
+.box h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #4E5150;
+}
+
+.card {
+    height: 1000px;
+    width: 1000px;
+    margin: 60px 240px;
+}
+
+.card1 {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.card1_1 {
+    width: 299px;
+    height: 299px;
+    background-image: url(https://i.ibb.co/LPHqP3y/photo1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.card1_2 {
+    width: 629px;
+    height: 299px;
+    background-image: url(https://i.ibb.co/mqv1hpp/photo2.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.card2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card2_1_2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card2_1_1 {
+    width: 627px;
+    height: 299px;
+    background-image: url(https://i.ibb.co/yVDYcSL/photo3.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+.card2_1_2_1 {
+    width: 299px;
+    height: 299px;
+    background-image: url(https://i.ibb.co/3Mdnw7G/photo6.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.card2_1_2_2 {
+    width: 299px;
+    height: 299px;
+    background-image: url(https://i.ibb.co/r5K7VgH/photo5.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.card2_2 {
+    width: 297px;
+    height: 650px;
+    background-image: url(https://i.ibb.co/31kpwpf/photo-4.png);
+    background-size: cover;
+    background-position: center;
+}
